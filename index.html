@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Electron Quickstart</title>
+  </head>
+  <body>
+    <h1>Electron Quickstart</h1>
+    <!--在界面中添加本地视频窗口 -->
+    <div
+      id="join-channel-local-video"
+      style="width: 300px; height: 300px; float: left"
+    ></div>
+    <!--在界面中添加远端视频窗口 -->
+    <div
+      id="join-channel-remote-video"
+      style="width: 300px; height: 300px; float: left"
+    ></div>
+
+    <button id="open_Video">open_Video</button>
+		<button id="close_Video">close_Video</button>
+
+    <button id="start_Preview">start_Preview</button>
+		<button id="stop_Preview">stop_Preview</button>
+    <button id="leave">leave</button>
+
+    <button id="open_Audio">open_Audio</button>
+		<button id="close_Audio">close_Audio</button>
+    <button id="followSystem">followSystem</button>
+		<button id="unfollowSystem">unfollowSystem</button>
+    
+
+
+    <!-- <div class='wrapper'>
+      <input type="checkbox" id='checkLabel'>
+       <label for="checkLabel"></label>
+     </div> -->
+    
+
+  </body>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script src="./renderer.js"></script>
+</html>
